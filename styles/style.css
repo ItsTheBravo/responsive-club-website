@@ -15,6 +15,10 @@ header {
     
 }
 
+img {
+    width: 25%;
+}
+
 .menu ul {
     background-color: #323232;
     display: flex;
@@ -42,6 +46,19 @@ header {
         color: white;
         padding: 1rem;
     }
+
+    #gallery {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    img {
+        width: 90%;
+        margin: 1%;
+    }
+    
 }
 
 #banner {
@@ -76,5 +93,33 @@ p {
 
 
 #message {
+    padding: 3rem;
+}
+
+
+
+#gallery {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2%;
+}
+
+#quote {
+    background-color: #53354a;
+    padding: 4rem;
+    font-size: 2rem;
+}
+
+blockquote {
+    padding: 0 50px; 
+    margin-left: 0;  
+    border-left: 2px solid gray;
+}
+
+blockquote p {
+    font-size: 5rem;
+}
+
+figcaption {
     padding: 1rem;
 }
